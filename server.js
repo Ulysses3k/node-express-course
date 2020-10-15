@@ -49,4 +49,8 @@ app.post('/login',function(req,res){
         }
 })
 
+app.get('/', function(req,res) {
+    res.send('hello world')
+})
+
 app.listen(8000,function(){console.log("server is running")})
